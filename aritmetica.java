@@ -11,7 +11,7 @@ public class aritmetica {
     public static void main(String[] args) {
         int resultado = suma(5, 3);
         System.out.println("La suma de 5 y 3 es: " + resultado);
-        int producto = multiplicacion(5*8);
+        int producto = multiplicacion(5,8);
         System.out.println("El producto de la multiplicacion es: " + producto);
     }
 
