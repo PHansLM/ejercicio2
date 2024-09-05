@@ -17,6 +17,10 @@ public class aritmetica {
         }
         return res;
         }
+    public static double potencia(double base, int exponente) {
+        return Math.pow(base, exponente);
+    }
+
 
     // Método principal para probar funciones
     public static void main(String[] args) {
@@ -24,9 +28,10 @@ public class aritmetica {
         System.out.println("La suma de 5 y 3 es: " + resultado);
         int producto = multiplicacion(5,8);
         System.out.println("El producto de la multiplicacion es: " + producto);
-
         double res = division(8,4);
         System.out.println("el resultado de la division es: " + res);
+        double resPotencia = potencia(5,3);
+        System.out.println("el resultado de la potencia es: " + resPotencia);
     }
 
     
