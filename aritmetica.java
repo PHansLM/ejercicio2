@@ -20,7 +20,13 @@ public class aritmetica {
     public static double potencia(double base, int exponente) {
         return Math.pow(base, exponente);
     }
-
+    public static double Raiz(double numero, int raiz) {
+        if (raiz == 2) {
+            return Math.sqrt(numero);
+        } else {
+            return Math.pow(numero, 1.0 / raiz);
+        }
+    }
 
     // Método principal para probar funciones
     public static void main(String[] args) {
@@ -32,6 +38,8 @@ public class aritmetica {
         System.out.println("el resultado de la division es: " + res);
         double resPotencia = potencia(5,3);
         System.out.println("el resultado de la potencia es: " + resPotencia);
+        double resRaiz = Raiz(27,3);
+        System.out.println("el resultado de la raiz es: " + resRaiz);
     }
 
     
