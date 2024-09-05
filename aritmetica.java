@@ -28,6 +28,11 @@ public class aritmetica {
         }
     }
 
+    public static int Residuo(int a, int b){
+        res = a % b;
+        return res;
+    }
+
     // Método principal para probar funciones
     public static void main(String[] args) {
         int resultado = suma(5, 3);
@@ -40,6 +45,8 @@ public class aritmetica {
         System.out.println("el resultado de la potencia es: " + resPotencia);
         double resRaiz = Raiz(27,3);
         System.out.println("el resultado de la raiz es: " + resRaiz);
+        int resResiduo = Residuo(20,3);
+        System.out.println("El residuo es:" + resResiduo);
     }
 
     
