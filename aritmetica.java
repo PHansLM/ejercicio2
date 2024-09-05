@@ -29,8 +29,7 @@ public class aritmetica {
     }
 
     public static int Residuo(int a, int b){
-        res = a % b;
-        return res;
+        return a % b;
     }
 
     // Método principal para probar funciones
