@@ -22,12 +22,17 @@ public class aritmetica {
     public static double potencia(double base, int exponente) {
         return Math.pow(base, exponente);
     }
+
     public static double Raiz(double numero, int raiz) {
-        if (raiz == 2) {
-            return Math.sqrt(numero);
-        } else {
-            return Math.pow(numero, 1.0 / raiz);
-        }
+      if (raiz == 2) {
+        return Math.sqrt(numero);
+      } else {
+        return Math.pow(numero, 1.0 / raiz);
+      }
+    }
+    // Metodo para saber si un numero es par o no.
+        public static boolean esPar(int numero) {
+        return numero % 2 == 0;
     }
     public static boolean esPar(int numero) {
     return numero % 2 == 0;
@@ -50,7 +55,11 @@ public class aritmetica {
         System.out.println("el resultado de la raiz es: " + resRaiz);
         int resResiduo = Residuo(20,3);
         System.out.println("El residuo es:" + resResiduo);
+<<<<<<< HEAD
                 Scanner scanner = new Scanner(System.in);
+=======
+        Scanner scanner = new Scanner(System.in);
+>>>>>>> e4bcc6d97626d027b4d7ed739b826c826e9c64c9
         System.out.print("Introduce un número para verificar si es par: ");
         int numero = scanner.nextInt();
 
@@ -59,6 +68,10 @@ public class aritmetica {
         } else {
             System.out.println("El número " + numero + " es impar.");
         }
+<<<<<<< HEAD
         scanner.close();
+=======
+        scanner.close();   
+>>>>>>> e4bcc6d97626d027b4d7ed739b826c826e9c64c9
     }
 }
