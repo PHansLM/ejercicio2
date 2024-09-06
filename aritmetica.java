@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class aritmetica {
     public static int suma(int a, int b) {
         return a + b;
@@ -27,7 +29,9 @@ public class aritmetica {
             return Math.pow(numero, 1.0 / raiz);
         }
     }
-
+    public static boolean esPar(int numero) {
+    return numero % 2 == 0;
+    }
     public static int Residuo(int a, int b){
         return a % b;
     }
@@ -46,7 +50,15 @@ public class aritmetica {
         System.out.println("el resultado de la raiz es: " + resRaiz);
         int resResiduo = Residuo(20,3);
         System.out.println("El residuo es:" + resResiduo);
-    }
+                Scanner scanner = new Scanner(System.in);
+        System.out.print("Introduce un número para verificar si es par: ");
+        int numero = scanner.nextInt();
 
-    
+        if (esPar(numero)) {
+            System.out.println("El número " + numero + " es par.");
+        } else {
+            System.out.println("El número " + numero + " es impar.");
+        }
+        scanner.close();
+    }
 }
