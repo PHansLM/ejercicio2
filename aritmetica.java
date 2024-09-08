@@ -4,6 +4,10 @@ public class aritmetica {
     public static int suma(int a, int b) {
         return a + b;
     }
+    
+    public static int resta(int a, int b){
+        return a - b;
+    }
 
     public static int multiplicacion(int a, int b) {
         return a * b;
@@ -40,6 +44,8 @@ public class aritmetica {
     public static void main(String[] args) {
         int resultado = suma(5, 3);
         System.out.println("La suma de 5 y 3 es: " + resultado);
+        int resResta = resta(10,6);
+        System.out.println("La resta de 10 y 6 es: " + resResta);
         int producto = multiplicacion(5,8);
         System.out.println("El producto de la multiplicacion es: " + producto);
         double res = division(8,4);
