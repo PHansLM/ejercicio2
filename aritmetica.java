@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 public class aritmetica {
+    //Pablo Limachi
     public static int suma(int a, int b) {
         return a + b;
     }
-
+    //Jhunior Garcia
     public static int resta(int a, int b) {
         return a - b;
     }
-
+    //Nilson Huanca
     public static int multiplicacion(int a, int b) {
         return a * b;
     }
-
+    //Fernanda Larrea
     public static double division(int a, int b) {
         double res = 0.0;
         if (b == 0) {
@@ -23,11 +24,11 @@ public class aritmetica {
         }
         return res;
     }
-
+    //Diego Grajeda
     public static double potencia(double base, int exponente) {
         return Math.pow(base, exponente);
     }
-
+    //Eleonor Anturiano
     public static double Raiz(double numero, int raiz) {
         if (raiz == 2) {
             return Math.sqrt(numero);
@@ -35,15 +36,15 @@ public class aritmetica {
             return Math.pow(numero, 1.0 / raiz);
         }
     }
-
+    //Luis Velarde
     public static boolean esPar(int numero) {
         return numero % 2 == 0;
     }
-
+    //Jhoel Camacho
     public static int Residuo(int a, int b) {
         return a % b;
     }
-
+    //Nestor Bruno Meneses
     public static int Factorial(int num) {
         int a = 1;
         for (int i = 1; num >= i; i++) {
