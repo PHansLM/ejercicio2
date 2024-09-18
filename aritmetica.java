@@ -66,6 +66,7 @@ public class aritmetica {
         double resPotencia = potencia(5, 3);
         System.out.println("el resultado de la potencia es: " + resPotencia);
         double resRaiz = Raiz(27, 3);
+        //Eleonor Camile Anturiano Eulate
         System.out.println("el resultado de la raiz es: " + resRaiz);
         int resResiduo = Residuo(20, 3);
         System.out.println("El residuo es:" + resResiduo);
